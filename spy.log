@@ -1,0 +1,2 @@
+1573696901971|18|statement|connection 2|url jdbc:mysql://114.55.94.250:3306/mall?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1
+1573696930658|16|statement|connection 2|url jdbc:mysql://114.55.94.250:3306/mall?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1
