@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>三位一体</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Morris -->
+    <link href="css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/my.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/plugins/summernote/summernote.css" rel="stylesheet"/>
+    <link href="css/plugins/summernote/summernote-bs3.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" type="text/css" href="css/plugins/webuploader/webuploader.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo/webuploader-demo.css"/>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                             </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                                <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Beaut-zihan</strong>
+                             </span> <span class="text-muted text-xs block">超级管理员 <b class="caret"></b></span> </span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="form_avatar.html">修改头像</a>
+                                </li>
+                                <li><a href="profile.html">个人资料</a>
+                                </li>
+                                <li><a href="contacts.html">联系我们</a>
+                                </li>
+                                <li><a href="mailbox.html">信箱</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="login.html">安全退出</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            H+
+                        </div>
+
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">报名</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="login.html">登录注册</a></li>
+                            <li>
+                                <a href="index.html">填写信息 <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="basic.html#">基本信息</a>
+                                    </li>
+                                    <li>
+                                        <a href="text.html#">学业水平测试成绩</a>
+                                    </li>
+                                    <li>
+                                        <a href="competition.html#">竞赛成绩</a>
+                                    </li>
+                                    <li>
+                                        <a href="message.html#">个人陈述</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="submit.html">生成报名表</a></li>
+                            <li><a href="upload.html">上传并邮寄材料</a></li>
+                            <li><a href="look.html">查看状态</a></li>
+                            <li><a href="pay.html">缴纳报名费</a></li>
+                            <li><a href="print.html">打印准考证</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="index.html#"><i class="fa fa-flask"></i> <span class="nav-label">查看公告</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="typography.html">最新公告</a>
+                            </li>
+                            <li><a href="icons.html">历史公告</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="attention.html#" onclick="dianwo()"><i class="fa fa-flask"></i> <span class="nav-label">注意事项</span></a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html#" onclick="dianwo()"><i class="fa fa-sitemap"></i> <span class="nav-label">联系招办 </span><span ></span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="wrapper wrapper-content animated fadeIn" >
+                <div class="zhezhao" id='zhezhao'>
+                    <div class="tankuang">
+                        <div id="header">
+                            <div class="header-mian">
+                                <span>注意事项</span>
+                            </div>
+                            <div id="header-right" onclick="hidder()" ><a href="index.html">x</a></div>
+                            <div class="header-left">
+                                <button class="btn btn-primary " type="button">
+                                    确认
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    document.getElementById('zhezhao').style.display="none";
+                    function dianwo(){
+                        document.getElementById('zhezhao').style.display="";
+                    }
+                    function hidder(){
+                        document.getElementById('zhezhao').style.display="none";
+                    }
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js?v=3.4.0"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/hplus.js?v=2.2.0"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+    <!--统计代码，可删除-->
+    <script type="text/javascript">
+        // 添加全局站点信息
+        var BASE_URL = 'js/plugins/webuploader';
+    </script>
+    <script src="js/plugins/webuploader/webuploader.min.js"></script>
+
+    <script src="js/demo/webuploader-demo.js"></script>
+</body>
+
+</html>

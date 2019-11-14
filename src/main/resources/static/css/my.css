@@ -1,0 +1,90 @@
+.main{
+
+}
+.basic-location{
+	width: 1050px;
+	margin-left: 400px;
+	padding-top: 50px;
+}
+.submit{
+	padding-left: 250px;
+}
+.optionA{
+	padding-top: 7px;
+}
+.optionB{
+	margin-left: 60px;
+	margin-top: -27px;
+}
+.optionC{
+	margin-left: 120px;
+	margin-top: -26px;
+}
+.optionD{
+	margin-left: 180px;
+	margin-top: -26px;
+}
+.optionE{
+	margin-left: 240px;
+	margin-top: -26px;
+}
+.submit2{
+	padding-left: 200px;
+}
+.state{
+	height: 1000px;
+}
+.zhezhao{
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                background: #000;
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
+                
+            }
+.tankuang{
+                position: relative;
+                background: #fff;
+                width: 30%;
+                height: 40%;
+                border-radius: 5px;
+                margin: 8% auto;
+            }
+#header{
+                height: 40px;
+            }
+#header-right{
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                border-radius: 5px;
+                background: red;
+                color: #fff;
+                right: 5px;
+                top: 5px;
+                text-align: center;
+            }
+.header-mian{
+	height: 20%;
+	width: 85%;
+	font-size: 20px;
+	padding-top: 70px;
+	padding-left: 80px;
+}
+.header-left{
+	height: 20%;
+	width: 85%;
+	padding-top: 100px;
+	padding-left: 200px;
+}
+.bao{
+	height: 100%;
+	width: 100%;
+	margin-top: 300px;
+	margin-left: 550px;
+}
+.ibox-content-1{
+	height: 700px;
+}

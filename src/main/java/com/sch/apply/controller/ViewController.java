@@ -21,4 +21,8 @@ public class ViewController {
     public String login(){
         return "login";
     }
+    @RequestMapping(value = "/attention",method = RequestMethod.GET)
+    public String attention(){
+        return "attention";
+    }
 }
